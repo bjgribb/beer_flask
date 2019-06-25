@@ -8,6 +8,7 @@ prospector = "*"
 
 [packages]
 flask = "*"
+python-dotenv = "*"
 
 [requires]
 python_version = "3.7"
