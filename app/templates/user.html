@@ -9,15 +9,8 @@
     </table>
 
     {% for post in posts %}
-    <table>
-        <tr valign='top'>
-            <td><img src='{{ post.author.avatar(36) }}'></td>
-            <td>
-                <p>{{ post.author.username }} says:</p>
-                <p>{{ post.body }}</p>
-            </td>
-        </tr>
-    </table>
+        {% include '_post.html'%}
     {% endfor %}
 
 {% endblock %}
+a
